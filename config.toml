@@ -1,0 +1,24 @@
+baseURL = "http://pirate-docs.github.io/"
+languageCode = "en-us"
+title = "PIRATE's Blog"
+author = "PIRATE"
+canonifyurls = true
+paginate = 5
+
+googleAnalytics = ""
+
+theme = "strange-case"
+
+[params]
+	colorScheme = "scheme-darkbrown"
+	DateFormat = "2019-1016"
+	description = "A blog about content"
+	sidebarDescription = "This is my blog about content"
+	sidebarFreeText = "A optional paragraph of free text. Set to blank in config.toml to clear..."
+	piwikSiteID = ""
+	piwikURL = ""
+
+[[menu.main]]
+	name = "Spring"
+	post = "<span class='glyphicon glyphicon-fire'></span>"
+	url = "https://spring.io/"
