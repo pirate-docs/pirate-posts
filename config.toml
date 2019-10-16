@@ -1,4 +1,4 @@
-baseURL = "http://pirate-docs.github.io/"
+baseURL = "https://pirate-docs.github.io/"
 languageCode = "en-us"
 title = "PIRATE's Blog"
 author = "PIRATE"
