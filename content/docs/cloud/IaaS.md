@@ -19,13 +19,4 @@ weight: 100
     <div><b>Type-1 and type-2 hypervisors</b> (출처. <a href="https://en.wikipedia.org/wiki/Hypervisor">Wikipedia</a>)</div>
 </div>
 
-<div style="text-align:center" >
-    <img src="https://github.com/pirate-kor/pirate-posts/blob/master/static/images/iaas.png" />
-    <div><b>Type-1 and type-2 hypervisors</b> (출처. <a href="https://en.wikipedia.org/wiki/Hypervisor">Wikipedia</a>)</div>
-</div>
-
-![TEST1](https://github.com/pirate-kor/pirate-posts/blob/master/static/images/iaas.png)
-
-![TEST2](/static/images/iaas.png)
-
-![Screenshot](https://github.com/alex-shpak/hugo-book/blob/master/images/screenshot.png)
+<!-- ![TEST2](/static/images/iaas.png) -->
