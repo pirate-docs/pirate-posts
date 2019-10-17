@@ -2,7 +2,7 @@
 title: "IaaS"
 date: 2019-10-17T08:46:46+09:00
 bookFlatSection: true
-draft: false
+draft: true
 weight: 100
 ---
 
@@ -16,12 +16,12 @@ weight: 100
 ## 서비스 형태
 
 <div style="text-align:center" >
-    <img src="https://github.com/pirate-kor/pirate-posts/blob/master/static/images/iaas.png" />
+    <img src="/static/images/iaas.png" />
     <div><b>Type-1 and type-2 hypervisors</b> (출처. <a href="https://en.wikipedia.org/wiki/Hypervisor">Wikipedia</a>)</div>
 </div>
 
 <div style="text-align:center" >
-    <img src="/static/images/iaas.png" />
+    <img src="https://github.com/pirate-kor/pirate-posts/blob/master/static/images/iaas.png" />
     <div><b>Type-1 and type-2 hypervisors</b> (출처. <a href="https://en.wikipedia.org/wiki/Hypervisor">Wikipedia</a>)</div>
 </div>
 
