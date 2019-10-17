@@ -10,7 +10,7 @@ date: 2019-10-17T11:04:58+09:00
 - 가상화머신모니터 또는 가상화머신매니저(Virtual Machine Monitor, Virtual Machine Manager, 줄여서 VMM)라고도 불림
 
 <div style="text-align:center" >
-    <img src="/static/images/hypervisor.png" />
+    <img src="https://github.com/pirate-kor/pirate-posts/blob/master/static/images/hypervisor.png" />
     <div><b>Type-1 and type-2 hypervisors</b> (출처. <a href="https://en.wikipedia.org/wiki/Hypervisor">Wikipedia</a>)</div>
 </div>
 
