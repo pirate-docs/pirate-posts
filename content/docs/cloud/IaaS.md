@@ -2,7 +2,6 @@
 title: "IaaS"
 date: 2019-10-17T08:46:46+09:00
 bookFlatSection: true
-draft: true
 weight: 100
 ---
 
