@@ -4,3 +4,7 @@
 [submodule "themes/hugo-theme"]
 	path = themes/hugo-theme
 	url = https://github.com/pirate-docs/hugo-theme
+[submodule "pirate-kor.github.io"]
+	path = pirate-kor.github.io
+	url = https://github.com/pirate-kor/pirate-kor.github.io.git
+	branch = master
