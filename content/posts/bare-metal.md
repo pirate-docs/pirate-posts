@@ -21,7 +21,7 @@ date: 2019-10-18T11:22:21+09:00
             - 사용자가 구성한 표준 아키텍처의 하드웨어를 가상서버와 동일한 서비스 형태로 제공
 
 <div style="text-align:center" >
-    <img src="https://github.com/pirate-kor/pirate-posts/blob/master/static/images/baremetal.png" />
+    <img src="/static/images/baremetal.png" />
     <div><b>가상서버와 베어메탈</b> (출처. <a href="http://www.ciokorea.com/news/35402">CIO News</a>)</div>
 </div>
 

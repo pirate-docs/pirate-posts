@@ -35,6 +35,6 @@ weight: 100
 
 #### 하이브리드 방식 (퍼블릭클라우드 + 호스팅)
 - 서비스 환경에 따라 On-Premise와 일반적인 퍼블릭클라우드의 장단점을 취하기 위함 
-- [베어메탈(bare metal)]({{< relref "/posts/bare-metal" >}})) 클라우드 방식 제공으로, 사용자에게 특정 물리 호스트 전체 제어권을 줄 수 있음 (ex. [IBM softlayer](https://www.ibm.com/kr-ko/cloud/info/softlayer-is-now-ibm-cloud))
+- [베어메탈(bare metal)]({{< relref "/posts/bare-metal" >}}) 클라우드 방식 제공으로, 사용자에게 특정 물리 호스트 전체 제어권을 줄 수 있음 (ex. [IBM softlayer](https://www.ibm.com/kr-ko/cloud/info/softlayer-is-now-ibm-cloud))
 
 <!-- ![TEST2](/static/images/iaas.png) -->
