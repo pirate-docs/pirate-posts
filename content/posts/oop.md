@@ -72,12 +72,59 @@ public class School {
 ### 상속 (Inheritance)
 
 - 자식 클래스가 부모 클래스의 특성과 기능을 그대로 물려받는 것
+- IS-A 관계를 가짐 
 
 ### 다형성 (Polymorphism)
 
 - 하나의 변수명, 함수명 등이 상황에 따라 다른 의미로 해석될 수 있는 것 
-    - 서브타입 다형성 (Subtype )
+- 서브타입 다형성 (Subtype Polymorphism / Subtyping)
+    #### 기초 클래스 또는 인터페이스를 구현하는 상위 클래스를 생성하고, 해당 클래스를 상속받는 다수의 하위 클래스를 만들어 상위 클래스의 포인터나 참조변수 등이 하위 클래스의 객체를 참조하게 하는 것 
+    #### 각 하위 클래스는 상위 클래스의 메서드 위에 자신의 메서드를 덮어쓰는 메서드 오버라이딩을 수행하며, 상위 클래스의 참조변수가 어떤 하위 클래스의 객체를 참조하느냐에 따라 호출되는 메서드가 달라짐 
+- 매개변수 다형성 (Parametric Polymorphism)
+    #### 타입을 매개변수로 받아서 새로운 타입을 되돌려주는 기능 (컴파일 시 지정한 타입에 따라 해석됨)
+    - 템플릿 (Template) 
+        ##### - 타입 매개변수를 입력한 타입으로 치환한 코드를 생성하는 방식 (C++)
+    - 제네릭 (Generic) 
+        ##### 지정한 타입 매개변수에 해당하는 타입만 사용하는 방식 (Java, C#)
+- 임시 다형성 (Ad hoc Polymorphism)
+    - 함수 오버로딩 (Function overloading) 
+        ##### 동일한 이름의 함수를 매개변수에 따라 다른 기능으로 동작하도록 할 수 있음 (C++, C#, Java)
+    - 연산자 오버로딩 (Operator overloading) 
+        ##### 연산자를 오버로딩하여 기본 연산자가 해당 클래스에 맞는 역할을 수행하게 하는 것 (C++, C#)
+- 강제 다형성 (Coercion Polymorphism)
+    - 묵시적 형변환 (Implicit type coercion) 
+        ##### ex. double a = 30;
+    - 명시적 형변환 (Explicit type coercion) 
+        ##### ex. double a = (double) 30;
+        
+## 5대 원칙
+
+### 단일 책임 원칙 (Single Responsibility Principle, SRP)
+
+- 객체는 오직 하나의 책임을 가져야 함 
+- 객체는 오직 하나의 변경 이슈만을 가져야 함 
+
+### 개방-폐쇄 원칙 (Open-Close Principle, OCP)
+
+- 객체는 확장에 대해서는 개방적이고 수정에 대해서는 폐쇄적이어야 함
+- 객체 기능의 확장을 허용하고 스스로의 변경은 피해야 함 
+
+### 리스코프 치환 원칙 (Liskov Substitution Principle, LSP)
+
+- 자식 클래스는 언제나 자신의 부모 클래스를 대체할 수 있어야 함 
+
+### 인터페이스 분리 원칙 (Interface Segregation Principle, ISP)
+
+- 클라이언트에서 사용하지 않는 메서드는 사용하면 안됨 
+
+### 의존성 역전 원칙 (Dependency Inversion Principle, DIP)
+    
+- 추상성이 높고 안정적인 클래스는 구체적이고 불안정한 저수준의 클래스에 의존하면 안됨 
+- 객체지향의 인터페이스를 통해 해당 원칙을 준수할 수 있음 
+    - 추상화한 인터페이스를 구현한 클래스는 클라이언트 변경없이 교체 가능해야 함
 
 ## 참고자료
 
-- [나무위키 - 객체 지향 프로그래밍](https://namu.wiki/w/객체%20지향%20프로그래밍)
+- 나무위키 
+    - [객체 지향 프로그래밍](https://namu.wiki/w/%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)
+    - [객체 지향 프로그래밍 - 원칙](https://namu.wiki/w/%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EC%9B%90%EC%B9%99)

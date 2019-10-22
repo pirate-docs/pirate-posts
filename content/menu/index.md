@@ -2,7 +2,7 @@
 headless: true
 ---
 
-- [**Cloud Service**]({{< relref "/docs/cloud" >}})
+- [**Cloud Computing**]({{< relref "/docs/cloud" >}})
   - [IaaS]({{<relref "/docs/cloud/IaaS">}})
   - [PaaS]({{<relref "/docs/cloud/PaaS">}})
   - [SaaS]({{<relref "/docs/cloud/SaaS">}})

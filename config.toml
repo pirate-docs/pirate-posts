@@ -33,7 +33,7 @@ pygmentsCodeFences = true
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo = "https://github.com/pirate-docs/hugo-theme"
+  BookRepo = "https://github.com/pirate-docs/pirate-posts"
 
   # Enable "Edit this page" links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
