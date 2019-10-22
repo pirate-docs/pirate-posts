@@ -6,11 +6,12 @@ date: 2019-10-17T11:04:58+09:00
 ## 하이퍼바이저(Hypervisor)란?
 
 ### 의미
+
 - 호스트 컴퓨터 1대에서 다수의 운영체제를 동시에 실행할 수 있도록 해주는 가상 플랫폼
 - 가상화머신모니터 또는 가상화머신매니저(Virtual Machine Monitor, Virtual Machine Manager, 줄여서 VMM)라고도 불림
 
 <div style="text-align:center" >
-    <img src="https://github.com/pirate-kor/pirate-posts/blob/master/static/images/hypervisor.png" />
+    <img src="/static/images/cloud/hypervisor.png" />
     <div><b>Type-1 and type-2 hypervisors</b> (출처. <a href="https://en.wikipedia.org/wiki/Hypervisor">Wikipedia</a>)</div>
 </div>
 

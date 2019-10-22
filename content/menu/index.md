@@ -3,9 +3,10 @@ headless: true
 ---
 
 - [**Cloud Service**]({{< relref "/docs/cloud" >}})
-  - [SaaS]({{<relref "/docs/cloud/SaaS">}})
-  - [PaaS]({{<relref "/docs/cloud/PaaS">}})
   - [IaaS]({{<relref "/docs/cloud/IaaS">}})
+  - [PaaS]({{<relref "/docs/cloud/PaaS">}})
+  - [SaaS]({{<relref "/docs/cloud/SaaS">}})
+- [**Java**]({{< relref "/docs/java" >}})
 - [**Example Site**]({{< relref "/docs/example" >}})
 - [Table of Contents]({{< relref "/docs/example/table-of-contents" >}})
   - [With ToC]({{< relref "/docs/example/table-of-contents/with-toc" >}})
