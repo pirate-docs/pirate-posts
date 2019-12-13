@@ -21,7 +21,7 @@ weight: 90
 
 #### On-Premise (IDC)
 
-- 소프트웨어 등 솔루션을 클라우드같은 원격 환경이 아닌 자체적으로 보유한 전산실 서버에 직접 설치 및 운영하는 방식 
+- 여러 솔루션을 원격 환경이 아닌 자체적으로 보유한 전산실 서버에 직접 설치 및 운영하는 방식 
 - 데이터센터 레벨부터 물리적 인프라(서버/스토리지/네트워크), 가상화를 위한 [하이퍼바이저]({{< relref "/posts/hypervisor" >}}) 레벨, 그리고 서버 가상화 솔루션을 통한 가상서버 레벨까지 모두 컨트롤(관리) 가능 
 
 #### Other Cloud Customers
@@ -38,9 +38,10 @@ weight: 90
 #### 하이브리드 방식 (퍼블릭클라우드 + 호스팅)
 
 - 서비스 환경에 따라 On-Premise와 일반적인 퍼블릭클라우드의 장단점을 취하기 위함 
-- [베어메탈(bare metal)]({{< relref "/posts/bare-metal" >}}) 클라우드 방식 제공으로, 사용자에게 특정 물리 호스트 전체 제어권을 줄 수 있음 (ex. [IBM softlayer](https://www.ibm.com/kr-ko/cloud/info/softlayer-is-now-ibm-cloud))
+- [베어메탈(bare metal)]({{< relref "/posts/bare-metal" >}}) 클라우드 방식 제공으로, 사용자에게 특정 물리 호스트 전체 제어권을 줄 수 있음
 
 ### 대표적인 서비스
 
 - [Amazon EC2 (Amazon Elastic Compute Cloud)](https://aws.amazon.com/ko/ec2/)
 - [Azure IaaS (Microsoft)](https://azure.microsoft.com/ko-kr/overview/what-is-azure/iaas/)
+- [IBM softlayer](https://www.ibm.com/kr-ko/cloud/info/softlayer-is-now-ibm-cloud)
